@@ -4040,10 +4040,10 @@ manner.js@^0.0.19:
     glow.js "^0.0.3"
     gulp "^4.0.2"
 
-mannerjs-cli@^0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/mannerjs-cli/-/mannerjs-cli-0.0.27.tgz#c0cd586183779eaa2dfc6ac1dea6fc64cfd7650f"
-  integrity sha512-I515FTeh/LnIGccqfP6lKG/THLhh741X/1/MFsaYSOO9so40pmPLQx+wZJaSq3P1Zy/bQYp7YIuBoPnTLqdTQw==
+mannerjs-cli@^0.0.28:
+  version "0.0.28"
+  resolved "https://registry.yarnpkg.com/mannerjs-cli/-/mannerjs-cli-0.0.28.tgz#ca570be7cca524a1a9abc5f70e8d74ca7954edd5"
+  integrity sha512-1fTiaZIwQmmvLx+TXKtJMEkQXK9kcSpWVkfCa2dxR1pll/5LtXAiPRKqoFHUorC8gZOZK0JpOfVmBHmXTtCHKA==
   dependencies:
     chalk "2.4.2"
 
