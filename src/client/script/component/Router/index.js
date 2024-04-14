@@ -37,7 +37,7 @@ class Router extends WebApp {
       });
     });
     emitter.on('page/', async () => {
-      const Home = await import('~/client/script/page/Home');
+      const Home = await import('~/client/script/page/QuickStart');
       this.addRoute('/', Home.default);
       location.to('/');
     });
