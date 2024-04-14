@@ -35,7 +35,7 @@
     "pro": "webpack --config webpack.config.pro.babel.js"
   },
   "dependencies": {
-    "glow.js": "^0.0.22",
+    "glow.js": "^0.0.23",
     "gulp": "^5.0.0",
     "manner.js": "^0.0.33",
     "normalize.css": "^8.0.1",

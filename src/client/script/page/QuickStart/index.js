@@ -1,35 +1,36 @@
 import React from 'react';
-import Code from '~/client/script/component/Code';
+import Text from '~/client/script/component/Text';
+import Format from '~/client/script/component/Format';
 import style from './index.module.css';
 
 class QuickStart extends React.Component {
   render() {
     return (
       <div>
-        <Code hl={['javascript']}>
-          {"import { HighLight, JavascriptLexer, } from 'glow.js';"}
-        </Code>
-        <div className={style.text}>
-          Import related dependencies 'highLight' and 'JavascriptLexer' from glow.js.
-        </div>
-        <Code hl={['javascript']}>
+        <Format>
+        {"import { HighLight, JavascriptLexer, } from 'glow.js';"}
+        </Format>
+        <Format>
           const highLight = new HighLight();
-        </Code>
-        <div className={style.text}>
-          Instantiate 'HighLight' class, generate 'highLight' instance.
-        </div>
-        <Code hl={['javascript']}>
+        </Format>
+        <Format>
           highLight.addLexer(JavascriptLexer);
-        </Code>
-        <div className={style.text}>
-          Add related lexer.For example,add 'JavascriptLexer'.
-        </div>
-        <Code hl={['javascript']}>
+        </Format>
+        <Format>
           highLight.parse('os.cpus()');
-        </Code>
-        <div className={style.text}>
+        </Format>
+        <Text>
+          Import related dependencies 'highLight' and 'JavascriptLexer' from glow.js.
+        </Text>
+        <Text>
+          Instantiate 'HighLight' class, generate 'highLight' instance.
+        </Text>
+        <Text className={style.text}>
+          Add related lexer.For example,add 'JavascriptLexer'.
+        </Text>
+        <Text>
           Use 'highLight' instance,parse javascript code.
-        </div>
+        </Text>
       </div>
     );
   }

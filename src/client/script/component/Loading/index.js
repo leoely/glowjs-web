@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './index.module.css';
-import formateUnit from '~/client/script/lib/formateUnit';
+import formatUnit from '~/client/script/lib/formatUnit';
 
 class Loading extends React.Component {
   constructor(props) {
