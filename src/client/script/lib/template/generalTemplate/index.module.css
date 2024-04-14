@@ -1,0 +1,20 @@
+.namespace
+  color: rgb(194, 51, 42)
+.slash
+  color: rgb(23, 143, 52)
+.dot
+  color: rgb(242, 41, 32)
+.colon
+  color: rgb(42, 42, 42)
+.option
+  color: rgb(141, 195, 42)
+.or
+  color: rgb(132, 42, 142)
+.centerLine
+  color: rgb(132, 134, 4)
+.identifer
+  color: rgb(10, 172, 124)
+.parenthese
+  color: rgb(34, 20, 82)
+.call
+  color: rgb(21, 134, 42)

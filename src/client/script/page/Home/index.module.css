@@ -1,0 +1,25 @@
+.home
+  display: flex
+  font-size: 19px
+  height: 100%
+  flex-direction: column
+.top
+  justify-content: center
+.text
+  padding: 13px
+  background-color: rgb(235, 235, 235)
+  border-bottom: 1.5px solid rgb(200, 200, 200)
+.center
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 10px 0 10px 0
+  background-color: rgb(41, 41, 41)
+.name
+  color: rgb(245, 245, 245)
+  font-size: 23px
+  font-weight: bold
+  margin-right: 26px
+.logo
+  width: 170px
+  height: 170px

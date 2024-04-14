@@ -1,0 +1,34 @@
+.tab
+  position: fixed
+  display: flex
+  list-style-type: none
+  margin: 0
+  padding: 0
+  bottom: 0
+  align-items: end
+  font-size: 21px
+  width: 100%
+  color: rgb(255, 255, 255)
+.item
+  width: fit-content
+  cursor: pointer
+  padding: 13.5px
+  border: 0.8px solid rgb(10, 10, 10)
+  background-color: rgb(80, 80, 80)
+.item:hover
+  transform: scale(1.2)
+.logo
+  width: 20px
+  height: 20px
+  margin-right: 15px
+.icon::before
+  font-family: 'Font Awesome'
+  font-style: normal
+  display: inline-block
+  margin: 0 10px 0 10px
+.quickstart::before
+  content: '\f03a'
+.reference::before
+  content: '\f02f'
+.home::before
+  content: '\f015'

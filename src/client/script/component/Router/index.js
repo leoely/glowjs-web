@@ -4,6 +4,7 @@ import UpdateConfirm from '~/client/script/component/UpdateConfirm';
 import Container from '~/client/script/component/Container'
 import NotFound from '~/client/script/page/NotFound';
 import WebApp from '~/client/script/component/WebApp';
+import Tab from '~/client/script/component/Tab';
 import { readCookie, } from 'manner.js/client';
 import global from '~/client/script/obj/global';
 
@@ -76,7 +77,8 @@ class Router extends WebApp {
       <Container>
         { update && <UpdateConfirm /> }
         <div id="page" className={style.page}>{this.getPage(location)}</div>
-      </Container>
+        <Tab />
+      </Container>;
     }
     return router;
   }
