@@ -20,7 +20,7 @@ class Reference extends React.Component {
           highLight.parse('fulmination parse test.ctf');
         </Format>
         <Text>
-          Class "HighLight" can add special lexer and parse text which need to
+          Class 'HighLight' can add special lexer and parse text which need to
           colorful.
         </Text>
         <Format>
@@ -34,7 +34,7 @@ class Reference extends React.Component {
           {"import { LocationLexer, } from 'glow.js';"}
         </Format>
         <Text>
-          Class 'JavascriptLexer' can parse location context which need to
+          Class 'LocationLexer' can parse location context which need to
           colorful.
         </Text>
         <Format>
@@ -62,7 +62,7 @@ class Reference extends React.Component {
           {"import { CtfLexer, } from 'glow.js';"}
         </Format>
         <Text>
-          Class 'YamlLexer' can parse ctf context which need to
+          Class 'CtfLexer' can parse ctf context which need to
           colorful.
         </Text>
         <Format>

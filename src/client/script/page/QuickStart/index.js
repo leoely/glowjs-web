@@ -20,7 +20,7 @@ class QuickStart extends React.Component {
           highLight.parse('os.cpus()');
         </Format>
         <Text>
-          Import related dependencies 'highLight' and 'JavascriptLexer' from glow.js.
+          Import related dependencies 'HighLight' and 'JavascriptLexer' from glow.js.
         </Text>
         <Text>
           Instantiate 'HighLight' class, generate 'highLight' instance.

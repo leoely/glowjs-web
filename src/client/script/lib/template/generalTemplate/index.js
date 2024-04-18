@@ -3,7 +3,6 @@ import style from './index.module.css';
 
 export default function locationTemplate(e) {
   const { type, elem, } = e;
-  console.log(e);
   switch (type) {
     case ' ':
       return <span> </span>;
