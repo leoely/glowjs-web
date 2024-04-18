@@ -1,5 +1,10 @@
 import React from 'react';
 import style from './index.module.css';
+import global from '~/client/script/obj/global';
+
+const {
+  emitter,
+} = global;
 
 function getInitActive() {
   switch (location.pathname) {
@@ -25,6 +30,17 @@ class Tab extends React.Component {
     this.setState({
       active,
     });
+    switch (active) {
+      case 0:
+        emitter.send('page/');
+        break;
+      case 1:
+        emitter.send('page/quickstart');
+        break;
+      case 2:
+        emitter.send('page/reference');
+        break;
+    }
   }
 
   render() {

@@ -37,9 +37,19 @@ class Router extends WebApp {
       });
     });
     emitter.on('page/', async () => {
-      const Home = await import('~/client/script/page/QuickStart');
+      const Home = await import('~/client/script/page/Home');
       this.addRoute('/', Home.default);
       location.to('/');
+    });
+    emitter.on('page/quickstart', async () => {
+      const Home = await import('~/client/script/page/QuickStart');
+      this.addRoute('/quickstart', Home.default);
+      location.to('/quickstart');
+    });
+    emitter.on('page/reference', async () => {
+      const Home = await import('~/client/script/page/Reference');
+      this.addRoute('/reference', Home.default);
+      location.to('/reference');
     });
   }
 
