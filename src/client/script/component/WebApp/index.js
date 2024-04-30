@@ -15,6 +15,7 @@ class WebApp extends React.Component {
 
   dealUpdate() {
     const id = setInterval(this.checkUpdate, 1000 * 60 * 30);
+    this.id = id;
   }
 
   dealHistory() {
@@ -29,13 +30,13 @@ class WebApp extends React.Component {
     });
     const timeText = await response.text();
     const update = parseInt(timeText) > this.updaeTime;
-    if (update)
     this.setState({
       update,
     });
   }
 
   async componentDidMount() {
+    console.log(111111);
     this.dealUpdate();
     this.dealHistory();
     await this.ownComponentDidMount();

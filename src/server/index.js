@@ -11,7 +11,7 @@ https.createServer({
     content: 'Glow.js document website.',
     icon: 'favicon-16x16.png',
     fonts: ['ttf'],
-    develope: true,
+    develope: false,
   });
   await commonHttp.process(req, res);
 }).listen(8000);
