@@ -36,7 +36,6 @@ class WebApp extends React.Component {
   }
 
   async componentDidMount() {
-    console.log(111111);
     this.dealUpdate();
     this.dealHistory();
     await this.ownComponentDidMount();
